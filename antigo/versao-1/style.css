@@ -1,0 +1,65 @@
+/* Estilos gerais do corpo do site */
+
+body {
+    background-color: #6C7B8B;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+    margin: 1%;
+    padding: 0.5%;
+    border-style:groove;
+}
+
+/* Estilos de Títulos */
+
+#title { /* Aplicar nos H1 */
+    text-align: center;
+    font-family: Garamond;
+    font-size: 44px;
+    color: #FFFFFF;
+    background-color: #000000;
+    margin: 0px 0px 0px 0px;
+    text-transform: uppercase;
+}
+
+/* Estilos para Imagens do Site */
+
+#graf { /* Formatação da imagem - aplicar na img */
+    max-width: 25%;
+    object-fit: cover;
+    border-style:solid;
+    border: #000000;
+    }
+
+#contatos {
+    margin: 0.1%;
+    max-width: 2.7%;
+    max-height: 2.7%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para os Posts */
+
+
+#subtitle { /* Aplicar em um H2 */
+        text-align: center;
+        color: #000000;
+        padding: 2%;
+        text-transform: capitalize;
+        }
+
+#post {
+    text-align: justify;
+    font-family: 'Calibri', Arial, Helvetica, sans-serif;
+    font-size:larger;
+    padding: 2%;
+    margin: 1%;
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1.5% solid black;
+    background-color: rgba(255, 228, 196, 0.35);
+    opacity: 0.85;
+    border: #000000;
+    border-style: solid;
+    justify-content: center;
+}
