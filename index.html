@@ -56,6 +56,23 @@
         var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
     }());
     //]]>
+
+    import { initializeApp } from "firebase/app";
+    import { getPerformance } from "firebase/performance";
+
+    // TODO: Replace the following with your app's Firebase project configuration
+    // See: https://firebase.google.com/docs/web/learn-more#config-object
+    const firebaseConfig = {
+  // ...
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+
+    // Initialize Performance Monitoring and get a reference to the service
+    const perf = getPerformance(app);
+
     </script>
     <!-- End Open Web Analytics Code -->
 
